@@ -146,6 +146,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark #header-wrap:not(.not-dark) #top-cart a:hover,
 .dark #header-wrap:not(.not-dark) #side-panel-trigger a:hover,
 .dark #header-wrap:not(.not-dark) #top-search form input {
+	/* ESTE COLOR MODIFICA EL DE LOS ICONOS EN EL HEADER */
 	color: rgb(71, 137, 192);
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }

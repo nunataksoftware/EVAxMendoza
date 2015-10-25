@@ -356,6 +356,7 @@
 }
 .icon-map-marker:before {
 	content: "\e62a";
+	color:#DF013A;
 }
 .icon-map:before {
 	content: "\e62b";
@@ -1358,6 +1359,7 @@
 }
 .icon-info-sign:before {
 	content: "\e711";
+	color:#FFFFFF;
 }
 .icon-screenshot:before {
 	content: "\e712";
@@ -1904,6 +1906,7 @@
 }
 .icon-info:before {
 	content: "\e7c7";
+	color:#FFFFFF;
 }
 .icon-exclamation:before {
 	content: "\e7c8";

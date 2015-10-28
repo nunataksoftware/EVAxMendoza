@@ -6689,12 +6689,12 @@ body:not(.device-touch) .button {
 }
 
 .button.button-border.button-light {
-	border-color: #EEE;
-	color: #EEE;
+	border-color: #151515;
+	color: #151515;
 }
 
 .button.button-border.button-light:hover {
-	background-color: #EEE;
+	background-color: rgb(71, 137, 192);
 	color: #333;
 	text-shadow: none;
 }
@@ -12930,20 +12930,25 @@ body:not(.no-transition) #wrapper,
 	background-color: #282828 !important;
 }
 .rainbow-color > div:nth-child(2){
-	background-image: linear-gradient(rgba(42, 81, 139, 0.9), rgba(182, 18, 144, 0.9));
-	background-color:  !important;
+	background-color: #FAFAFA !important;
 }
 .rainbow-color > div:nth-child(3){
-	background-color: #282828 !important;
+	background-image: linear-gradient(rgba(42, 81, 139, 0.9), rgba(182, 18, 144, 0.9));
+	background-color:  !important;
 }
 .rainbow-color > div:nth-child(4){
 	background-color: #282828 !important;
 }
 .rainbow-color > div:nth-child(5){
+	background-color: #282828 !important;
+}
+.rainbow-color > div:nth-child(6){
 	background-image: linear-gradient( rgba(222, 54, 72, 0.9), rgba(235, 148, 6, 0.9));
 	background-color:  !important;
 }
 
-.rainbow-color > div:nth-child(6){
-	background-image: linear-gradient(rgba(249, 171, 0, 0.9), rgba(221, 255, 0, 0.9));
+.rainbow-color > div:nth-child(7){
+	background-image: linear-gradient(rgba(42, 81, 139, 0.9), rgba(182, 18, 144, 0.9));
+	background-color:  !important;
+	
  }

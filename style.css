@@ -115,7 +115,7 @@ h2 > span:not(.nocolor),
 h3 > span:not(.nocolor),
 h4 > span:not(.nocolor),
 h5 > span:not(.nocolor),
-h6 > span:not(.nocolor) { color: #1ABC9C; }
+h6 > span:not(.nocolor) { color: rgb(71, 137, 192); }
 
 p,
 pre,
@@ -6297,7 +6297,7 @@ td.actions {
 }
 
 .single-event .countdown-section {
-	padding: 0 15px;
+	padding: 0 20px;
 	border-left-color: rgba(255,255,255,0.3);
 	color: #CCC;
 }
@@ -6365,7 +6365,7 @@ td.actions {
 .parallax .countdown-section {
 	border-left: 0;
 	width: 80px;
-	height: 80px;
+	height: 100px;
 	margin: 0 8px;
 	font-size: 13px;
 	background-color: rgba(0,0,0,0.7);
@@ -6426,7 +6426,7 @@ td.actions {
 	font-size: 11px;
 	line-height: 1;
 	text-align: center;
-	width: 25%;
+	width: 20%;
 	border-left: 1px dotted #BBB;
 	color: #888;
 	text-transform: capitalize;
@@ -10701,7 +10701,7 @@ label.error { display: none !important; }
 
 .fancy-title {
 	position: relative;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 .fancy-title h1,
@@ -10786,7 +10786,7 @@ label.error { display: none !important; }
 	display: block;
 	background: transparent;
 	padding: 0 0 10px;
-	border-bottom: 2px solid #1ABC9C;
+	border-bottom: 2px solid rgb(71, 137, 192);
 }
 
 
@@ -12924,7 +12924,7 @@ body:not(.no-transition) #wrapper,
 	padding:0!important
 }
 .rainbow-color > div{
-	height: 100vh;
+	/* height: 100vh; */
 }
 .rainbow-color > div:nth-child(1){
 	background-color: #282828 !important;
@@ -12933,27 +12933,17 @@ body:not(.no-transition) #wrapper,
 	background-image: linear-gradient(rgba(42, 81, 139, 0.9), rgba(182, 18, 144, 0.9));
 	background-color:  !important;
 }
-.rainbow-color > div:nth-child(){
-	background-color: rgba(71, 137, 192, 0.9)  !important;
-}
-.rainbow-color > div:nth-child(){
-	background-color: rgba(249, 223, 0, 0.9)  !important;
-}
-.rainbow-color > div:nth-child(){
-	background-color: rgba(235, 87, 6, 0.9) !important;
-}
 .rainbow-color > div:nth-child(3){
+	background-color: #282828 !important;
+}
+.rainbow-color > div:nth-child(4){
+	background-color: #282828 !important;
+}
+.rainbow-color > div:nth-child(5){
 	background-image: linear-gradient( rgba(222, 54, 72, 0.9), rgba(235, 148, 6, 0.9));
 	background-color:  !important;
 }
-.rainbow-color > div:nth-child(){
-	background-color: rgba(182, 18, 144, 0.9)  !important;
-}
-.rainbow-color > div:nth-child(){
-	background-color: rgba(93, 57, 156, 0.9)  !important;
- }
 
-.rainbow-color > div:nth-child(4){
+.rainbow-color > div:nth-child(6){
 	background-image: linear-gradient(rgba(249, 171, 0, 0.9), rgba(221, 255, 0, 0.9));
  }
-

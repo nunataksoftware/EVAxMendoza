@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es-AR">
 <head>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -29,11 +29,24 @@
 
     <!-- Document Title
     ============================================= -->
-    <title>EVA | 2015</title>
+    <title>EVAxMendoza | 2015</title>
     <script type="text/javascript">
+
+        (function($) {
+            $.countdown.regionalOptions['es'] = {
+                labels: ['Años', 'Meses', 'Semanas', 'Días', 'Horas', 'Minutos', 'Segundos'],
+                labels1: ['Año', 'Mes', 'Semana', 'Día', 'Hora', 'Minuto', 'Segundo'],
+                compactLabels: ['a', 'm', 's', 'd'],
+                whichLabels: null,
+                digits: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
+                timeSeparator: ':', isRTL: false};
+            $.countdown.setDefaults($.countdown.regionalOptions['es']);
+        })(jQuery);
+
         jQuery(document).ready( function($){
             var newDate = new Date("December 19, 2015 9:00");
             $('#countdown-ex3').countdown({until: newDate});
+//            $('#countdown-ex3').countdown($.countdown.regionalOptions['es']);
         });
 
 
@@ -102,7 +115,7 @@
                                     <a href="#cronograma"><div>Cronograma</div></a>
                                 </li>
                                 <li>
-                                    <a href="#contacto"><div>Contacto</div></a>
+                                    <a href="#contacto"><div>Registrate!</div></a>
                                 </li>
                                
                                 
@@ -155,6 +168,10 @@
                                     <a style="margin-top: 30px;" class="button button-border button-light button-rounded button-large noleftmargin nobottommargin fadeInUp animated" href="https://eventioz.com.ar/organizers/adva-mendoza--2/events" data-delay="600" data-animate="fadeInUp">INSCRIBITE AHORA!!!</a>
                                    
                                 </div>
+
+                                <div class="slider-caption slider-caption-center" style="top: 150px;">
+                                    Entrada: 1 alimento no perecedero
+                                </div>
                             </div>
                         
                     </div>
@@ -205,10 +222,10 @@
                                     <div class="iportfolio">
                                         <div class="portfolio-image">
                                             <a href="portfolio-single.html">
-                                                <img src="images/4.jpg" alt="Locked Steel Gate">
+                                                <img src="images/1.jpg" alt="Locked Steel Gate">
                                             </a>
                                             <div class="portfolio-overlay">
-                                                <a href="images/4.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+                                                <a href="images/1.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -268,7 +285,17 @@
                         <div class="fancy-title title-border title-center topmargin-sm">
                             <h4>Conócelos</h4>
                         </div>
+                        <h1>Próximamente</h1>
+
+
+                        <!--
+
+
                         <div class="col-md-6 bottommargin">
+
+
+
+
 
                             <div class="team team-list clearfix">
                                 <div class="team-image">
@@ -288,10 +315,10 @@
                                         <i class="icon-facebook"></i>
                                         <i class="icon-facebook"></i>
                                     </a>
-                                    <!--<a class="social-icon si-rounded si-small si-twitter" href="#">
+                                    <a class="social-icon si-rounded si-small si-twitter" href="#">
                                         <i class="icon-twitter"></i>
                                         <i class="icon-twitter"></i>
-                                    </a>-->
+                                    </a>
                                     <a class="social-icon si-rounded si-small si-linkedin" href="https://ar.linkedin.com/pub/alejandro-andrés-iparraguirre/3a/248/413">
                                         <i class="icon-linkedin"></i>
                                         <i class="icon-linkedin"></i>
@@ -335,7 +362,7 @@
 
                         <div class="clear"></div>
 
-                        <!--<div class="col-md-6 bottommargin">
+                        <div class="col-md-6 bottommargin">
 
                             <div class="team team-list clearfix">
                                 <div class="team-image">
@@ -384,8 +411,15 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>  -->   
+                        </div>
                         <div class="clear"></div>
+
+
+
+                        -->
+
+
+
                     </div>
                 </div>
 
@@ -414,7 +448,7 @@
                             <div id="contact-form-overlay-mini" class="clearfix">
 
                                 <div class="fancy-title title-dotted-border">
-                                    <h3>Envianos tu Consulta</h3>
+                                    <h3>Registrate!</h3>
                                 </div>
 
                                 <div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
@@ -497,7 +531,7 @@
                                         
                                         latitude : -32.8880067013032,
                                         longitude: -68.8141754726197,
-                                        html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
+                                        html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">EVAxMendoza</h4><p class="nobottommargin">19 de Diciembre de 2015.</p></div>',
                                         icon: {
                                             image: "images/icons/map-icon-red.png",
                                             iconsize: [32, 39],
@@ -541,17 +575,16 @@
                 <div class="container clearfix">
 
                     <div class="col_half">
-                        Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
-                        <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+                        Copyright &copy; 2015 Todos los derechos reservados.<br>
                     </div>
 
                     <div class="col_half col_last tright">
                         <div class="fright clearfix">
-                            <a href="#" class="social-icon si-small si-borderless si-facebook">
+                            <a href="https://www.facebook.com/evaxmendoza/?fref=ts" class="social-icon si-small si-borderless si-facebook" target="_blank">
                                 <i class="icon-facebook"></i>
                                 <i class="icon-facebook"></i>
                             </a>
-
+<!--
                             <a href="#" class="social-icon si-small si-borderless si-twitter">
                                 <i class="icon-twitter"></i>
                                 <i class="icon-twitter"></i>
@@ -586,11 +619,12 @@
                                 <i class="icon-linkedin"></i>
                                 <i class="icon-linkedin"></i>
                             </a>
+-->
                         </div>
 
                         <div class="clear"></div>
 
-                        <i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
+                        <i class="icon-envelope2"></i> mendoza@adva.com.ar <span class="middot">&middot;</span> <!-- <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype -->
                     </div>
 
                 </div>

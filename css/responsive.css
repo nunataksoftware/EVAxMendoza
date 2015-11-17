@@ -1466,7 +1466,7 @@
 		padding: 20px 15px;
 	}
 
-	#top-social,
+/*	#top-social,
 	#slider:not(.swiper_wrapper) .slider-caption,
 	.nivo-caption,
 	.flex-caption,
@@ -1476,6 +1476,11 @@
 	.ei-title,
 	.slider-arrow-top-sm,
 	.slider-arrow-bottom-sm { display: none !important; }
+*/
+
+	.container-calltoaction {
+		height: 500px !important;
+	}
 
 	.slider-caption h2 { margin-bottom: 0 !important; }
 

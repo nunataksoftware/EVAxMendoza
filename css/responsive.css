@@ -1482,6 +1482,12 @@
 		height: 500px !important;
 	}
 
+	#contacto .button.button-large {
+		height: auto;
+		max-width: 100%;
+		white-space: normal;
+	}
+
 	.slider-caption h2 { margin-bottom: 0 !important; }
 
 	.flex-control-nav li { opacity: 1 !important; }
